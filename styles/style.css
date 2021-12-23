@@ -1,12 +1,22 @@
 
 /* Variables css */
 :root {
+  /*========== Colors ==========*/
   --green: #3a8070;
   --black: #000000;
   --grey: #d9d9d9;
   --light-grey: #f6f7f9;
   --light-green: #ebf2f1;
   --white: #ffffff;
+
+    /*========== Margenes Bottom ==========*/
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
 }
 
 * {
@@ -19,6 +29,7 @@ body {
   font-weight: regular;
   padding: 0;
   margin: 0;
+  background-color: var(--light-grey);
 
   color: var(--text-color);
 
@@ -37,6 +48,7 @@ p {
 
 main {
   padding: 1em;
+  margin-top: 50;
 }
 
 button {
@@ -58,6 +70,11 @@ ul {
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+  white-space: normal;
 }
 
 .layout-row{
@@ -92,7 +109,7 @@ a {
   padding: 2em;
   position: fixed;
   width: 100%;
-  z-index: 99999;
+ z-index: 99999;
 }
 
 .primary-navigation {
@@ -102,10 +119,14 @@ a {
   justify-content: center;
   align-items: center;
   gap: 1.5em;
+  
 }
 
 .mobile-nav-toggle {
   display: none;
+}
+.beyco-logo{
+  color: var(--green);
 }
 
 header h1,
@@ -127,6 +148,10 @@ header a:hover {
 
 /* Header aanpassingen animatie en vormgeving */
 .hidden{
+  display: none;
+}
+
+.verborgen{
   display: none;
 }
 
@@ -213,6 +238,7 @@ nav p{
     right: 2rem;
     aspect-ratio: 1;
     border: 0;
+    color: var(--green);
   }
 
   .nav-a{
@@ -234,6 +260,18 @@ label {
   flex-direction:column;
   transition: all .5s;
 }
+legend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+fieldset{
+  background-color: var(--white);
+  border: none;
+  margin-bottom: .5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
 
 .grade-wrapper{
   display: grid;
@@ -252,4 +290,90 @@ label {
 
 input{
   min-width: 0;
+}
+
+.simple-nav{
+  margin-top: 2.5em;
+}
+/* Article */
+
+
+.article-logo{
+  width: 50px;
+  height: 50px;
+}
+
+.section-header{
+  display: flex;
+
+}
+
+.coffee-tags{
+  background-color: var(--light-grey);
+  font-size: .9em;
+  border-radius: .25em;
+  padding: .25em .125em;
+  margin
+}
+
+.card{
+  border-radius: .5em;
+  box-shadow: 0 .1rem .25rem .1rem rgba(0,0,0,.1);
+  background-color: var(--white);
+}
+
+.card-header, .card-data{
+  background-color: var(--white);
+  margin: 1em;
+}
+.card-data{
+
+}
+.filter-tags{
+  margin-bottom: var(--mb-2-5);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-data h2{
+  margin-bottom: var(--mb-1);
+}
+
+.card-header{
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  /* margin-left: -1px; */
+  padding-top: var(--mb-1);
+}
+
+.seller{
+  color: grey;
+  font-style: italic;
+}
+.card-data p{
+  margin-bottom: var(--mb-2-5);
+
+}
+.origin{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: grey;
+}
+.card-footer{
+  margin: 1em;
+}
+
+.cupping-wrapper{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--ligh-grey);
+
+}
+.cupping-score{
+
+}
+.cupping-title{
+
 }
