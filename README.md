@@ -1,14 +1,8 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# 🅿️ Chipper Beyco filter pagina
+<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
-# Titel
+## 📙 Inhoudsopgave
 
-## Beschrijving
-<!-- Voeg een link toe naar Github Pages 🌐-->
-<!-- Voeg een mooie poster visual toe 📸 -->
-
-## Inhoudsopgave
-
-- [Titel](#titel)
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
@@ -16,15 +10,53 @@
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
+## Beschrijving
+[🌐 Live Versie](https://m4tthys123.github.io/chippr-beyco-improve-find-flow/)
+
+
 ## Kenmerken
 
-## Installatie
+**Tools gebruikt:**
 
-## Gebruik
+- 💻 Visual Studio Code
+- ✍️ Illustrator
+- 🤳 Photoshop
+- 🖌️ XD
+- 🐼 Draw.io
+- ✍️ Pen & Papier
 
-## Bronnen
+**Code Skills:**
 
-## Licentie
+- 💀 HTML5
+- 🧍 CSS3
+- ⚽ JavaScript
+
+## 💥 Installatie
+
+Installeren met de Terminal
+
+```
+git clone https://github.com/M4TThys123/chippr-beyco-improve-find-flow.git
+cd chippr-beyco-improve-find-flow
+```
+
+Installeren met SSH
+
+```
+git@github.com:M4TThys123/chippr-beyco-improve-find-flow.git
+cd chippr-beyco-improve-find-flow
+```
+
+## 🚊 Gebruik
+
+n.v.t
+
+## 🥇 Bronnen
+
+- [🍎 Font - SF Pro](https://developer.apple.com/fonts/)
+- [🌊 Unsplash](https://unsplash.com/)
+
+## 🦹‍♂️ Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
